@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Sprints {
-	private Integer id;
+	private Long id;
 	private String name;
 	private LocalDate start_date;
 	private LocalDate end_date;
