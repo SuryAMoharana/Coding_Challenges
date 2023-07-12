@@ -22,10 +22,8 @@ public class JwtUtils  {
 	
 	private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
-	  //@Value("${health.app.jwtSecret}")
 	  private String jwtSecret="======================SignUpLogInApplication===========================";
 
-	  //@Value("${health.app.jwtExpirationMs}")
 	  private int jwtExpirationMs=86400000;
 
 	  public String generateJwtToken(Authentication authentication) {
